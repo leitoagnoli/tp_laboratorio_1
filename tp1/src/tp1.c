@@ -15,7 +15,6 @@
 int main(void) {
 	setbuf(stdout, NULL);
 
-
 	int opcion;
 	char seguir = 's';
 	float primerNumero;
@@ -29,6 +28,8 @@ int main(void) {
 	int flagOperador1 = 0;
 
 	do {
+
+		system("cls");
 
 		printf("\n1 -Ingresar 1er operando ");
 		printf("\n2 -Ingresar 2do operando  ");
@@ -92,6 +93,8 @@ int main(void) {
 
 		}
 
+
+		system("pause");
 	} while (seguir == 's');
 
 	return EXIT_SUCCESS;
